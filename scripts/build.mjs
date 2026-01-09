@@ -140,7 +140,7 @@ function build() {
                 frActive: lang === "fr" ? "active" : "",
                 nlActive: lang === "nl" ? "active" : "",
 
-                contactEmail: "{{contactEmail}}",
+                contactEmail: "koyden.contact@gmail.com",
                 content: htmlContent,
             };
 
