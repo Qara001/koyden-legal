@@ -2,7 +2,7 @@
 
 ### Purpose of this Privacy Policy
 
-This Privacy Policy explains how **Koyden** collects, uses, stores, and protects personal data when you use our services.
+This Privacy Policy explains how Koyden collects, uses, stores, and protects personal data when you use our services.
 
 Its purpose is to provide clear and transparent information about:
 
@@ -11,15 +11,15 @@ Its purpose is to provide clear and transparent information about:
 - How it is used and protected
 - What rights users have regarding their personal data
 
-**Koyden** is committed to handling personal data in a lawful, fair, and transparent manner, in accordance with applicable data protection laws.
+Koyden is committed to handling personal data in a lawful, fair, and transparent manner, in accordance with applicable data protection laws.
 
 ### Scope of This Policy
 
-This policy applies to the **Koyden** mobile application and any official websites or online services directly operated by **Koyden**.
+This policy applies to the Koyden mobile application and any official websites or online services directly operated by Koyden.
 
 ### Who This Policy Applies To
 
-This Privacy Policy applies to all users of **Koyden**, including:
+This Privacy Policy applies to all users of Koyden, including:
 
 - Buyers who browse products or stores
 - Sellers who create stores, publish products, or manage listings
@@ -29,7 +29,7 @@ Different categories of users may provide different types of data, depending on 
 
 ### Jurisdiction and Applicable Law
 
-**Koyden** is established in **Belgium** and operates primarily within the European Union.
+Koyden is established in **Belgium** and operates primarily within the European Union.
 
 This Privacy Policy is intended to comply with applicable data protection laws, including:
 
@@ -40,25 +40,25 @@ Where local laws provide additional or mandatory protections, those protections 
 
 ## 2. Who We Are (Data Controller)
 
-**Koyden** is the data controller responsible for the processing of personal data under this Privacy Policy.
+Koyden is the data controller responsible for the processing of personal data under this Privacy Policy.
 
 For the purposes of applicable data protection laws, including the General Data Protection Regulation (GDPR), the data controller is:
 
-- **Koyden**
+- Koyden
 - Established in: **Belgium**
 - Contact email: **{{contactEmail}}**
 
-As the data controller, **Koyden** determines the purposes and means of processing personal data collected through the **Koyden** mobile application and related services.
+As the data controller, Koyden determines the purposes and means of processing personal data collected through the Koyden mobile application and related services.
 
 If you have any questions about this Privacy Policy, the way your personal data is processed, or if you wish to exercise your data protection rights, you may contact us using the email address above.
 
 ## 3. Personal Data We Collect
 
-**Koyden** collects and processes different categories of personal data depending on how users interact with the services. Some data is provided directly by users, while other data is collected automatically for operational, security, and legal purposes.
+Koyden collects and processes different categories of personal data depending on how users interact with the services. Some data is provided directly by users, while other data is collected automatically for operational, security, and legal purposes.
 
 ### 3.1 Data You Provide Directly
 
-When you create an account or use **Koyden’s** features, you may provide personal data such as:
+When you create an account or use Koyden’s features, you may provide personal data such as:
 
 - Account information (for example: name, email address)
 - Profile information
@@ -67,11 +67,11 @@ When you create an account or use **Koyden’s** features, you may provide perso
 - Content submitted through reports, feedback, or support requests
 - Records of policy acceptance (for example, the date and time you accepted the Terms of Service and Privacy Policy, and the version accepted)
 
-The type and amount of data collected depends on whether you use **Koyden** as a buyer, seller, or visitor.
+The type and amount of data collected depends on whether you use Koyden as a buyer, seller, or visitor.
 
 ### 3.2 Authentication and Account Data
 
-**Koyden** uses a third-party authentication provider to manage account creation and sign-in.
+Koyden uses a third-party authentication provider to manage account creation and sign-in.
 
 As part of this process, the following data may be processed:
 
@@ -79,22 +79,22 @@ As part of this process, the following data may be processed:
 - Authentication identifiers
 - Account status (such as active, deactivated, or pending deletion)
 
-**Koyden** does not store passwords directly.
+Koyden does not store passwords directly.
 
 ### 3.3 Location Data
 
-To enable discovery of local stores and products, **Koyden** processes location-related data provided by sellers, including:
+To enable discovery of local stores and products, Koyden processes location-related data provided by sellers, including:
 
 - Store address details (such as city, postal code, and country)
 - Geographic coordinates used to display store locations on maps
 
 Location data is used solely to support app functionality, such as displaying nearby stores and products, and is not used for tracking users beyond what is necessary to provide these features.
 
-If a user chooses to enable location-based search features, **Koyden** may access the user’s approximate or device location, depending on the permissions granted, to display nearby stores or products.
+If a user chooses to enable location-based search features, Koyden may access the user’s approximate or device location, depending on the permissions granted, to display nearby stores or products.
 
 When a user enables location-based search, the app may access location while the feature is being used (for example, to refresh nearby results).
 
-**Koyden** does not collect location data in the background unless the user explicitly grants background permission and the feature requires it.
+Koyden does not collect location data in the background unless the user explicitly grants background permission and the feature requires it.
 
 ### 3.4 Usage and Technical Data
 
@@ -112,9 +112,9 @@ This data may also be used to support automated security and abuse-prevention me
 
 If you are a seller and choose a paid plan, billing and payment processing are handled by a third-party payment provider.
 
-**Koyden** does not store full payment card details.
+Koyden does not store full payment card details.
 
-Billing-related data processed by **Koyden** may include:
+Billing-related data processed by Koyden may include:
 
 - Subscription status
 - Plan type
@@ -122,11 +122,11 @@ Billing-related data processed by **Koyden** may include:
 
 ### 3.6 Aggregated and Non-Identifying Data
 
-**Koyden** may generate aggregated or anonymized data for analytics, statistics, or service improvement purposes. This data does not identify individual users.
+Koyden may generate aggregated or anonymized data for analytics, statistics, or service improvement purposes. This data does not identify individual users.
 
 ## 4. Purposes of Processing
 
-**Koyden** processes personal data only for specific, explicit, and legitimate purposes. Personal data is collected and used solely to operate, maintain, and improve the services, and to comply with legal obligations.
+Koyden processes personal data only for specific, explicit, and legitimate purposes. Personal data is collected and used solely to operate, maintain, and improve the services, and to comply with legal obligations.
 
 ### 4.1 Providing and Operating the Services
 
@@ -168,7 +168,7 @@ Personal data may be processed to:
 - Handle reports submitted by users
 - Communicate important service-related information (such as account or subscription status)
 
-**Koyden** does not use personal data for unsolicited marketing communications.
+Koyden does not use personal data for unsolicited marketing communications.
 
 ### 4.5 Billing and Subscription Management (If Applicable)
 
@@ -178,7 +178,7 @@ For sellers using paid plans, personal data is processed to:
 - Track subscription status and billing state
 - Coordinate with the payment provider for billing-related operations
 
-**Koyden** does not process or store full payment card details.
+Koyden does not process or store full payment card details.
 
 ### 4.6 Moderation, Safety, and Abuse Prevention
 
@@ -192,7 +192,7 @@ This processing is essential to maintain a safe and fair environment for all use
 
 ### 4.7 Analytics and Service Improvement
 
-**Koyden** may process aggregated or non-identifying data to:
+Koyden may process aggregated or non-identifying data to:
 
 - Understand how the services are used
 - Improve performance, reliability, and user experience
@@ -210,15 +210,15 @@ Personal data may be processed where necessary to:
 
 ### 4.9 Automated Security and Abuse Prevention Measures
 
-**Koyden** may use automated measures to protect the services, including rate limiting, spam detection, fraud prevention, and abuse-prevention mechanisms.
+Koyden may use automated measures to protect the services, including rate limiting, spam detection, fraud prevention, and abuse-prevention mechanisms.
 
 These measures may automatically and temporarily restrict access or requests when unusual or excessive activity is detected, in order to protect platform security, service availability, and infrastructure costs.
 
-**Koyden** does not use automated decision-making or profiling that produces legal or similarly significant effects within the meaning of applicable data protection laws.
+Koyden does not use automated decision-making or profiling that produces legal or similarly significant effects within the meaning of applicable data protection laws.
 
 ## 5. Publicly Visible Information
 
-Some information published on **Koyden** is intentionally made visible to other users or to the public, depending on how the services are used.
+Some information published on Koyden is intentionally made visible to other users or to the public, depending on how the services are used.
 
 ### 5.1 Information Made Public by Sellers
 
@@ -234,9 +234,9 @@ This information is displayed to allow buyers to discover stores and products an
 
 ### 5.2 Seller Responsibility for Published Content
 
-Sellers are solely responsible for the accuracy, completeness, and legality of the information they choose to publish on **Koyden**.
+Sellers are solely responsible for the accuracy, completeness, and legality of the information they choose to publish on Koyden.
 
-**Koyden** does not verify, certify, or guarantee:
+Koyden does not verify, certify, or guarantee:
 
 - The authenticity of labels, tags, or claims made by sellers
 - The accuracy of product descriptions or store information
@@ -262,11 +262,11 @@ This information is processed internally and only for the purposes described in 
 
 Sellers can update or remove most publicly visible information through their account settings or by unpublishing content, subject to applicable retention or legal requirements.
 
-**Koyden** may retain certain data where required to comply with legal obligations or to protect its legitimate interests.
+Koyden may retain certain data where required to comply with legal obligations or to protect its legitimate interests.
 
 ## 6. Legal Bases for Processing
 
-**Koyden** processes personal data only where there is a valid legal basis under applicable data protection laws, in particular the General Data Protection Regulation (GDPR).
+Koyden processes personal data only where there is a valid legal basis under applicable data protection laws, in particular the General Data Protection Regulation (GDPR).
 
 Depending on the context, personal data may be processed on one or more of the following legal bases:
 
@@ -282,11 +282,11 @@ This includes, for example:
 - Displaying store and product information to buyers
 - Managing subscriptions and paid plans (where applicable)
 
-Without this processing, **Koyden** would not be able to provide the services requested by users.
+Without this processing, Koyden would not be able to provide the services requested by users.
 
 ### 6.2 Legitimate Interests
 
-**Koyden** may process personal data where it is necessary for its legitimate interests, provided that such interests are not overridden by the rights and freedoms of users.
+Koyden may process personal data where it is necessary for its legitimate interests, provided that such interests are not overridden by the rights and freedoms of users.
 
 Legitimate interests include, for example:
 
@@ -296,7 +296,7 @@ Legitimate interests include, for example:
 - Improving performance, reliability, and user experience
 - Moderating content and handling reports
 
-Where processing is based on legitimate interests, **Koyden** takes appropriate measures to balance its interests against user rights.
+Where processing is based on legitimate interests, Koyden takes appropriate measures to balance its interests against user rights.
 
 ### 6.3 Legal Obligations
 
@@ -322,13 +322,13 @@ In rare cases, personal data may be processed where necessary to protect the vit
 
 ## 7. Data Sharing and Third Parties
 
-**Koyden** does not sell personal data to third parties.
+Koyden does not sell personal data to third parties.
 
 Personal data may be shared only where necessary to operate the services, comply with legal obligations, or protect **Koyden’s** legitimate interests, and only with trusted third parties acting on **Koyden’s** behalf or as independent service providers.
 
 ### 7.1 Service Providers and Processors
 
-**Koyden** relies on third-party service providers to support core functionality of the app. These providers process personal data only as necessary to perform their services and in accordance with applicable data protection laws.
+Koyden relies on third-party service providers to support core functionality of the app. These providers process personal data only as necessary to perform their services and in accordance with applicable data protection laws.
 
 Such providers may include:
 
@@ -343,13 +343,13 @@ These service providers act as data processors or independent controllers, depen
 
 If a seller uses paid features, billing and payment processing are handled by a third-party payment provider.
 
-**Koyden** may share limited data with this provider, such as:
+Koyden may share limited data with this provider, such as:
 
 - Account identifiers
 - Subscription or plan information
 - Billing references required to manage subscriptions
 
-**Koyden** does not receive or store full payment card details.
+Koyden does not receive or store full payment card details.
 
 ### 7.3 Legal and Regulatory Disclosures
 
@@ -358,7 +358,7 @@ Personal data may be disclosed where required to:
 - Comply with applicable laws or regulations
 - Respond to lawful requests from public authorities
 - Enforce legal rights or defend against legal claims
-- Protect the safety, rights, or property of **Koyden**, its users, or others
+- Protect the safety, rights, or property of Koyden, its users, or others
 
 Such disclosures are made only where legally required or permitted.
 
@@ -370,7 +370,7 @@ Users will be notified where required by law.
 
 ## 8. Data Retention
 
-**Koyden** retains personal data only for as long as necessary to fulfill the purposes described in this Privacy Policy, unless a longer retention period is required or permitted by law.
+Koyden retains personal data only for as long as necessary to fulfill the purposes described in this Privacy Policy, unless a longer retention period is required or permitted by law.
 
 Retention periods vary depending on the type of data and the context in which it is processed.
 
@@ -392,7 +392,7 @@ Content published by sellers (such as stores, products, descriptions, images, an
 - While the content is published
 - Or until it is removed or unpublished by the seller
 
-**Koyden** may retain certain content or metadata for a limited period after removal where necessary for:
+Koyden may retain certain content or metadata for a limited period after removal where necessary for:
 
 - Legal compliance
 - Dispute resolution
@@ -445,7 +445,7 @@ Under the General Data Protection Regulation (GDPR), users have certain rights r
 
 ### 9.1 Right of Access
 
-Users have the right to request confirmation as to whether **Koyden** processes their personal data and, where applicable, to access that data.
+Users have the right to request confirmation as to whether Koyden processes their personal data and, where applicable, to access that data.
 
 This includes information about:
 
@@ -483,7 +483,7 @@ Users may request that processing of their personal data be restricted in certai
 
 ### 9.5 Right to Data Portability
 
-Where applicable, users have the right to receive personal data they have provided to **Koyden** in a structured, commonly used, and machine-readable format, and to transmit that data to another controller.
+Where applicable, users have the right to receive personal data they have provided to Koyden in a structured, commonly used, and machine-readable format, and to transmit that data to another controller.
 
 This right applies only to data processed based on consent or performance of a contract and by automated means.
 
@@ -491,7 +491,7 @@ This right applies only to data processed based on consent or performance of a c
 
 Users may object to processing of their personal data where processing is based on legitimate interests.
 
-**Koyden** will assess such requests and will stop processing unless there are compelling legitimate grounds to continue or processing is required for legal reasons.
+Koyden will assess such requests and will stop processing unless there are compelling legitimate grounds to continue or processing is required for legal reasons.
 
 ### 9.7 Right to Withdraw Consent
 
@@ -507,23 +507,23 @@ In **Belgium**, this is the Belgian Data Protection Authority. Users may also co
 
 ### 9.9 Exercising Your Rights
 
-Users may exercise their rights by contacting **Koyden** using the contact details provided in this Privacy Policy.
+Users may exercise their rights by contacting Koyden using the contact details provided in this Privacy Policy.
 
-For security and privacy reasons, **Koyden** may need to verify the identity of the requesting user before responding to a request.
+For security and privacy reasons, Koyden may need to verify the identity of the requesting user before responding to a request.
 
 Requests will be handled within the time limits required by applicable data protection laws.
 
 ## 10. International Data Transfers
 
-**Koyden** operates primarily within the European Union. However, personal data may be transferred to, stored, or processed in countries outside the European Economic Area (EEA) as part of the operation of the services.
+Koyden operates primarily within the European Union. However, personal data may be transferred to, stored, or processed in countries outside the European Economic Area (EEA) as part of the operation of the services.
 
-This may occur, for example, when **Koyden** uses third-party service providers with global infrastructure.
+This may occur, for example, when Koyden uses third-party service providers with global infrastructure.
 
 ### 10.1 Transfers via Third-Party Service Providers
 
 Some of **Koyden’s** service providers may process personal data in countries outside the EEA.
 
-When such transfers occur, **Koyden** ensures that appropriate safeguards are in place, such as:
+When such transfers occur, Koyden ensures that appropriate safeguards are in place, such as:
 
 - Transfers to countries recognized by the European Commission as providing an adequate level of data protection; or
 - The use of approved contractual safeguards, such as Standard Contractual Clauses (SCCs); or
@@ -531,23 +531,23 @@ When such transfers occur, **Koyden** ensures that appropriate safeguards are in
 
 ### 10.2 Safeguards and Compliance
 
-**Koyden** takes reasonable steps to ensure that international data transfers comply with applicable data protection requirements and that personal data continues to be protected in accordance with this Privacy Policy.
+Koyden takes reasonable steps to ensure that international data transfers comply with applicable data protection requirements and that personal data continues to be protected in accordance with this Privacy Policy.
 
 Where required, additional technical or organizational measures may be implemented to protect transferred data.
 
 ### 10.3 Transparency
 
-Users may contact **Koyden** using the details provided in this Privacy Policy to obtain further information about international data transfers and the safeguards applied.
+Users may contact Koyden using the details provided in this Privacy Policy to obtain further information about international data transfers and the safeguards applied.
 
 ## 11. Data Security Measures
 
-**Koyden** implements appropriate technical and organizational measures designed to protect personal data against unauthorized access, disclosure, alteration, or destruction.
+Koyden implements appropriate technical and organizational measures designed to protect personal data against unauthorized access, disclosure, alteration, or destruction.
 
 These measures are intended to ensure a level of security appropriate to the nature of the data processed and the risks involved.
 
 ### 11.1 Technical Safeguards
 
-**Koyden** relies on industry-standard security practices, including but not limited to:
+Koyden relies on industry-standard security practices, including but not limited to:
 
 - Secure communication using encryption in transit (HTTPS/TLS)
 - Access controls and authentication mechanisms to limit access to authorized users and systems
@@ -555,11 +555,11 @@ These measures are intended to ensure a level of security appropriate to the nat
 - Separation of public and restricted data through database policies and permissions
 - Monitoring and logging mechanisms used for security, abuse prevention, and system integrity
 
-Passwords and authentication secrets are not stored directly by **Koyden**.
+Passwords and authentication secrets are not stored directly by Koyden.
 
 ### 11.2 Infrastructure and Service Providers
 
-**Koyden** uses reputable third-party infrastructure and service providers to host, process, and deliver parts of the services.
+Koyden uses reputable third-party infrastructure and service providers to host, process, and deliver parts of the services.
 
 These providers implement their own security measures, which may include:
 
@@ -568,7 +568,7 @@ These providers implement their own security measures, which may include:
 - Data redundancy and backup mechanisms
 - Incident detection and response procedures
 
-While **Koyden** carefully selects service providers that apply recognized security standards, **Koyden** does not control all aspects of their internal security practices.
+While Koyden carefully selects service providers that apply recognized security standards, Koyden does not control all aspects of their internal security practices.
 
 ### 11.3 Media Storage and Content Delivery
 
@@ -578,15 +578,15 @@ Due to the nature of distributed caching systems:
 
 - Media may remain temporarily accessible through cached copies after deletion
 - Cached content is subject to automatic expiration and invalidation mechanisms
-- **Koyden** does not guarantee immediate global removal of cached content once media is deleted
+- Koyden does not guarantee immediate global removal of cached content once media is deleted
 
-**Koyden** takes reasonable steps to manage media access and visibility but cannot eliminate all residual copies instantly due to technical constraints inherent to content delivery systems.
+Koyden takes reasonable steps to manage media access and visibility but cannot eliminate all residual copies instantly due to technical constraints inherent to content delivery systems.
 
 ### 11.4 Organizational Measures
 
 Access to personal data is limited to individuals who require it for operational, security, or legal purposes.
 
-**Koyden** applies internal controls designed to:
+Koyden applies internal controls designed to:
 
 - Reduce unnecessary access to personal data
 - Prevent accidental or unlawful processing
@@ -596,21 +596,21 @@ Access to personal data is limited to individuals who require it for operational
 
 Despite reasonable safeguards, no system can be guaranteed to be fully secure.
 
-**Koyden** cannot warrant or guarantee absolute security of personal data and encourages users to take appropriate precautions when using the services.
+Koyden cannot warrant or guarantee absolute security of personal data and encourages users to take appropriate precautions when using the services.
 
 ## 12. Children’s Data
 
-**Koyden** is not intended for use by children under the age of 16.
+Koyden is not intended for use by children under the age of 16.
 
-**Koyden** does not knowingly collect or process personal data from children under 16.
+Koyden does not knowingly collect or process personal data from children under 16.
 
-If **Koyden** becomes aware that personal data of a child under 16 has been collected without an appropriate legal basis, steps will be taken to delete such data as soon as possible.
+If Koyden becomes aware that personal data of a child under 16 has been collected without an appropriate legal basis, steps will be taken to delete such data as soon as possible.
 
-If you are a parent or legal guardian and believe that a child has provided personal data to **Koyden**, please contact us using the contact details provided in this Privacy Policy.
+If you are a parent or legal guardian and believe that a child has provided personal data to Koyden, please contact us using the contact details provided in this Privacy Policy.
 
 ## 13. Changes to This Privacy Policy
 
-**Koyden** may update this Privacy Policy from time to time to reflect:
+Koyden may update this Privacy Policy from time to time to reflect:
 
 - Changes in legal or regulatory requirements
 - Updates to the services or data processing practices
@@ -626,7 +626,7 @@ Continued use of the services after an update constitutes acceptance of the revi
 
 ## 14. Contact Information
 
-For questions or concerns regarding this Privacy Policy or the processing of personal data, you may contact **Koyden** at:
+For questions or concerns regarding this Privacy Policy or the processing of personal data, you may contact Koyden at:
 
 - **Email:** **{{contactEmail}}**
 
