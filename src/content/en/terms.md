@@ -18,8 +18,6 @@ These Terms should be read together with **Koyden’s Privacy Policy**, which ex
 
 If there is any conflict between these Terms and the Privacy Policy regarding personal data, the Privacy Policy prevails for matters related to data protection.
 
----
-
 ## 2. Definitions
 
 For the purposes of these Terms of Service, the following definitions apply:
@@ -39,8 +37,6 @@ For the purposes of these Terms of Service, the following definitions apply:
 - **“Subscription”** refers to any paid or free plan that provides access to specific features or limits within the Services.
 - **“Third-Party Services”** refers to external services, platforms, or providers that Koyden uses or integrates with to operate the Services, including but not limited to authentication, payment processing, hosting, or infrastructure providers.
 - **“Applicable Law”** refers to all laws, regulations, and legal requirements applicable to the use of the Services, including consumer protection and data protection laws.
-
----
 
 ## 3. Eligibility & Account Registration
 
@@ -172,8 +168,6 @@ Users are responsible for conducting their own due diligence before engaging wit
 Features, limits, or access conditions may change, including for free or paid Subscriptions.
 
 **Koyden** does not guarantee uninterrupted or error-free operation of the Services.
-
----
 
 ## 5. User Obligations & Acceptable Use
 
@@ -356,8 +350,6 @@ To the fullest extent permitted by law, sellers agree to indemnify and hold harm
 - Violation of applicable laws or regulations
 - Breach of these Terms
 
----
-
 ## 7. Buyer Obligations & Platform Use
 
 Buyers using **Koyden** must use the Services in a lawful, respectful, and responsible manner, and in accordance with these Terms.
@@ -497,8 +489,6 @@ In particular, users must not engage in any of the following activities:
 - Reporting unlawful activity to authorities where required
 
 Such actions may be taken with or without prior notice, where permitted by law.
-
----
 
 ## 9. Intellectual Property
 
@@ -675,8 +665,6 @@ Subscription plans may provide access to additional features or limits but do no
 
 Use of paid features is at the user’s own discretion and risk.
 
----
-
 ## 11. Disclaimers & No Warranties
 
 ### 11.1 Services Provided “As Is” and “As Available”
@@ -822,8 +810,6 @@ In such cases, liability is limited only to the extent permitted by law.
 
 Nothing in these Terms affects mandatory consumer rights under applicable EU or national law.
 
----
-
 ## 13. Indemnification
 
 To the maximum extent permitted by applicable law, users agree to indemnify, defend, and hold harmless **Koyden**, its operator, and any affiliated parties from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising out of or relating to:
@@ -863,8 +849,6 @@ Where such laws apply, you may bring proceedings before the courts of your place
 ### 14.4 Amicable Resolution
 
 Before initiating formal legal proceedings, users are encouraged to contact **Koyden** to seek an amicable resolution of any dispute where reasonably possible.
-
----
 
 ## 15. Miscellaneous
 
