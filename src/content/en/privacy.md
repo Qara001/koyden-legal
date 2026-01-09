@@ -626,8 +626,9 @@ Continued use of the services after an update constitutes acceptance of the revi
 
 ## 14. Contact Information
 
-For questions or concerns regarding this Privacy Policy or the processing of personal data, you may contact **Koyden** using the contact details provided at the bottom of this page.
+For questions or concerns regarding this Privacy Policy or the processing of personal data, you may contact **Koyden** at:
 
+- **Email:** **{{contactEmail}}**
 
 ## 15. Last Updated
 
