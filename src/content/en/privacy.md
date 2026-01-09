@@ -216,8 +216,6 @@ These measures may automatically and temporarily restrict access or requests whe
 
 **Koyden** does not use automated decision-making or profiling that produces legal or similarly significant effects within the meaning of applicable data protection laws.
 
----
-
 ## 5. Publicly Visible Information
 
 Some information published on **Koyden** is intentionally made visible to other users or to the public, depending on how the services are used.
@@ -265,8 +263,6 @@ This information is processed internally and only for the purposes described in 
 Sellers can update or remove most publicly visible information through their account settings or by unpublishing content, subject to applicable retention or legal requirements.
 
 **Koyden** may retain certain data where required to comply with legal obligations or to protect its legitimate interests.
-
----
 
 ## 6. Legal Bases for Processing
 
@@ -372,8 +368,6 @@ In the event of a merger, acquisition, restructuring, or sale of assets, persona
 
 Users will be notified where required by law.
 
----
-
 ## 8. Data Retention
 
 **Koyden** retains personal data only for as long as necessary to fulfill the purposes described in this Privacy Policy, unless a longer retention period is required or permitted by law.
@@ -444,8 +438,6 @@ In some cases, personal data may be retained longer where necessary to:
 - Comply with legal obligations
 - Respond to lawful requests
 - Establish, exercise, or defend legal claims
-
----
 
 ## 9. User Rights (GDPR)
 
@@ -547,8 +539,6 @@ Where required, additional technical or organizational measures may be implement
 
 Users may contact **Koyden** using the details provided in this Privacy Policy to obtain further information about international data transfers and the safeguards applied.
 
----
-
 ## 11. Data Security Measures
 
 **Koyden** implements appropriate technical and organizational measures designed to protect personal data against unauthorized access, disclosure, alteration, or destruction.
@@ -608,8 +598,6 @@ Despite reasonable safeguards, no system can be guaranteed to be fully secure.
 
 **Koyden** cannot warrant or guarantee absolute security of personal data and encourages users to take appropriate precautions when using the services.
 
----
-
 ## 12. Children’s Data
 
 **Koyden** is not intended for use by children under the age of 16.
@@ -619,8 +607,6 @@ Despite reasonable safeguards, no system can be guaranteed to be fully secure.
 If **Koyden** becomes aware that personal data of a child under 16 has been collected without an appropriate legal basis, steps will be taken to delete such data as soon as possible.
 
 If you are a parent or legal guardian and believe that a child has provided personal data to **Koyden**, please contact us using the contact details provided in this Privacy Policy.
-
----
 
 ## 13. Changes to This Privacy Policy
 
@@ -638,15 +624,11 @@ When changes are made:
 
 Continued use of the services after an update constitutes acceptance of the revised Privacy Policy, subject to applicable legal requirements.
 
----
-
 ## 14. Contact Information
 
 For questions or concerns regarding this Privacy Policy or the processing of personal data, you may contact **Koyden** at:
 
 - **Email:** **koyden.contact@gmail.com**
-
----
 
 ## 15. Last Updated
 
