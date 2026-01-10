@@ -7,8 +7,16 @@
   --border: rgba(255, 255, 255, 0.08);
 }
 
-* { box-sizing: border-box; }
-html, body { padding: 0; margin: 0; }
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
     "Segoe UI Emoji";
@@ -16,8 +24,14 @@ body {
   color: var(--text);
 }
 
-a { color: var(--link); text-decoration: none; }
-a:hover { text-decoration: underline; }
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 .header {
   position: sticky;
@@ -38,13 +52,36 @@ a:hover { text-decoration: underline; }
   gap: 10px;
 }
 
-.logo { width: 22px; height: 22px; }
-.brandName { font-weight: 700; letter-spacing: 0.2px; }
+.logo {
+  width: 22px;
+  height: 22px;
+}
 
-.nav { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
-.nav .sep { color: var(--muted); }
-.nav a { font-size: 14px; color: var(--muted); }
-.nav a.active { color: var(--text); font-weight: 600; }
+.brandName {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.nav .sep {
+  color: var(--muted);
+}
+
+.nav a {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.nav a.active {
+  color: var(--text);
+  font-weight: 600;
+}
 
 .container {
   max-width: 900px;
@@ -64,16 +101,26 @@ h1 {
   font-size: 28px;
 }
 
-.muted { color: var(--muted); }
+.muted {
+  color: var(--muted);
+}
 
 .content {
   margin-top: 18px;
   line-height: 1.6;
 }
 
-.content h2 { margin-top: 22px; }
-.content ul { padding-left: 18px; }
-.content li { margin: 6px 0; }
+.content h2 {
+  margin-top: 22px;
+}
+
+.content ul {
+  padding-left: 18px;
+}
+
+.content li {
+  margin: 6px 0;
+}
 
 .footer {
   margin-top: 18px;
@@ -88,6 +135,7 @@ h1 {
 
 .langTrigger {
   list-style: none;
+  /* Firefox */
   cursor: pointer;
   user-select: none;
   display: inline-flex;
@@ -95,10 +143,32 @@ h1 {
   gap: 6px;
 }
 
-/* Hide the default marker */
+/* Hide the default marker (Safari / iOS) */
 .langTrigger::-webkit-details-marker {
   display: none;
 }
+
+/* Hide the default marker (Chrome/Firefox/etc.) */
+.langTrigger::marker {
+  content: "";
+}
+
+/* Optional: rotate YOUR chevron when open */
+.langChevron {
+  transition: transform 160ms ease;
+}
+
+.langMenu[open] .langChevron {
+  transform: rotate(180deg);
+}
+
+/* Ensure dropdown stays vertical (and doesn't inherit nav layout weirdness) */
+.langDropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
 
 .langDropdown {
   position: absolute;
@@ -106,10 +176,10 @@ h1 {
   top: calc(100% + 8px);
   min-width: 160px;
   background: #fff;
-  border: 1px solid rgba(0,0,0,0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 10px;
   padding: 6px;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
   z-index: 50;
 }
 
@@ -126,5 +196,5 @@ h1 {
 }
 
 .langDropdown a:hover {
-  background: rgba(0,0,0,0.04);
+  background: rgba(0, 0, 0, 0.04);
 }
