@@ -80,3 +80,51 @@ h1 {
   padding: 10px 4px;
   border-top: 1px solid var(--border);
 }
+
+.langMenu {
+  position: relative;
+  display: inline-block;
+}
+
+.langTrigger {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Hide the default marker */
+.langTrigger::-webkit-details-marker {
+  display: none;
+}
+
+.langDropdown {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  min-width: 160px;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 10px;
+  padding: 6px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+  z-index: 50;
+}
+
+.langDropdown a {
+  display: block;
+  padding: 10px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.langDropdown a.active {
+  font-weight: 600;
+}
+
+.langDropdown a:hover {
+  background: rgba(0,0,0,0.04);
+}

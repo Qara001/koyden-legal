@@ -27,10 +27,21 @@
         <nav class="nav">
             <a href="/{{lang}}/terms/" class="{{termsActive}}">{{navTerms}}</a>
             <a href="/{{lang}}/privacy/" class="{{privacyActive}}">{{navPrivacy}}</a>
+
             <span class="sep">·</span>
-            <a href="/en/{{slug}}" class="{{enActive}}">EN</a>
-            <a href="/fr/{{slug}}" class="{{frActive}}">FR</a>
-            <a href="/nl/{{slug}}" class="{{nlActive}}">NL</a>
+
+            <details class="langMenu">
+                <summary class="langTrigger" aria-label="Language">
+                    {{langUpper}}
+                    <span class="langChevron" aria-hidden="true">▾</span>
+                </summary>
+
+                <div class="langDropdown" role="menu" aria-label="Language selector">
+                    <a href="/en/{{slug}}" class="{{enActive}}" role="menuitem">English</a>
+                    <a href="/fr/{{slug}}" class="{{frActive}}" role="menuitem">Français</a>
+                    <a href="/nl/{{slug}}" class="{{nlActive}}" role="menuitem">Nederlands</a>
+                </div>
+            </details>
         </nav>
     </header>
 

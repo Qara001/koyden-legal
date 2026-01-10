@@ -27,10 +27,21 @@
         <nav class="nav">
             <a href="/fr/terms/" class="">Conditions</a>
             <a href="/fr/privacy/" class="active">Confidentialité</a>
+
             <span class="sep">·</span>
-            <a href="/en/privacy" class="">EN</a>
-            <a href="/fr/privacy" class="active">FR</a>
-            <a href="/nl/privacy" class="">NL</a>
+
+            <details class="langMenu">
+                <summary class="langTrigger" aria-label="Language">
+                    FR
+                    <span class="langChevron" aria-hidden="true">▾</span>
+                </summary>
+
+                <div class="langDropdown" role="menu" aria-label="Language selector">
+                    <a href="/en/privacy" class="" role="menuitem">English</a>
+                    <a href="/fr/privacy" class="active" role="menuitem">Français</a>
+                    <a href="/nl/privacy" class="" role="menuitem">Nederlands</a>
+                </div>
+            </details>
         </nav>
     </header>
 

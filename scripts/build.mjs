@@ -140,6 +140,8 @@ function build() {
             const vars = {
                 lang,
                 slug,
+                langUpper: lang.toUpperCase(),
+
                 title: titleFromSlug(lang, slug),
                 description: descriptionFromSlug(lang, slug),
                 lastUpdated: LAST_UPDATED,
@@ -159,6 +161,7 @@ function build() {
                 contactEmail: "koyden.contact@gmail.com",
                 content: htmlContent,
             };
+
 
             const finalHtml = render(template, vars);
 
