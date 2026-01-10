@@ -1,4 +1,4 @@
-> **Vertaalmelding:** Deze Nederlandse vertaling wordt uitsluitend ter informatie verstrekt. In geval van enige afwijking, tegenstrijdigheid of verschil in interpretatie tussen deze vertaling en de Engelse versie, heeft de Engelse versie voorrang, onverminderd de dwingende consumentenrechten die van toepassing zijn.
+**Vertaalmelding:** Deze Nederlandse vertaling wordt uitsluitend ter informatie verstrekt. In geval van enige afwijking, tegenstrijdigheid of verschil in interpretatie tussen deze vertaling en de Engelse versie, heeft de Engelse versie voorrang, onverminderd de dwingende consumentenrechten die van toepassing zijn.
 
 ## 1. Inleiding & Aanvaarding van de Voorwaarden
 

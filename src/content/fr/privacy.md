@@ -1,4 +1,4 @@
-> **Avis de traduction :** Cette version française est fournie uniquement pour des raisons de commodité. En cas de divergence ou de conflit d’interprétation, la version anglaise prévaut. Sous réserve des droits impératifs du consommateur applicables.
+**Avis de traduction :** Cette version française est fournie uniquement pour des raisons de commodité. En cas de divergence ou de conflit d’interprétation, la version anglaise prévaut. Sous réserve des droits impératifs du consommateur applicables.
 
 ## 1. Introduction
 
