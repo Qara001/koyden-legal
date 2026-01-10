@@ -97,12 +97,12 @@ function descriptionFromSlug(lang, slug) {
 }
 
 function uiLabels(lang) {
-  const map = {
-    en: { navTerms: "Terms", navPrivacy: "Privacy", footerContactLabel: "Contact" },
-    fr: { navTerms: "Conditions", navPrivacy: "Confidentialité", footerContactLabel: "Contact" },
-    nl: { navTerms: "Voorwaarden", navPrivacy: "Privacy", footerContactLabel: "Contact" },
-  };
-  return map[lang] ?? map.en;
+    const map = {
+        en: { navTerms: "Terms", navPrivacy: "Privacy", footerContactLabel: "Contact" },
+        fr: { navTerms: "Conditions", navPrivacy: "Confidentialité", footerContactLabel: "Contact" },
+        nl: { navTerms: "Voorwaarden", navPrivacy: "Privacy", footerContactLabel: "Contact" },
+    };
+    return map[lang] ?? map.en;
 }
 
 // Put your real last updated date here (or later automate from git)
@@ -135,12 +135,19 @@ function build() {
 
             const htmlContent = mdToHtml(md);
 
+            const labels = uiLabels(lang);
+
             const vars = {
                 lang,
                 slug,
                 title: titleFromSlug(lang, slug),
                 description: descriptionFromSlug(lang, slug),
                 lastUpdated: LAST_UPDATED,
+
+                // UI labels (template placeholders)
+                navTerms: labels.navTerms,
+                navPrivacy: labels.navPrivacy,
+                footerContactLabel: labels.footerContactLabel,
 
                 // nav active states
                 termsActive: slug === "terms" ? "active" : "",
