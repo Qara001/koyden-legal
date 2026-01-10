@@ -96,6 +96,15 @@ function descriptionFromSlug(lang, slug) {
     return map[lang]?.[slug] ?? "";
 }
 
+function uiLabels(lang) {
+  const map = {
+    en: { navTerms: "Terms", navPrivacy: "Privacy", footerContactLabel: "Contact" },
+    fr: { navTerms: "Conditions", navPrivacy: "Confidentialité", footerContactLabel: "Contact" },
+    nl: { navTerms: "Voorwaarden", navPrivacy: "Privacy", footerContactLabel: "Contact" },
+  };
+  return map[lang] ?? map.en;
+}
+
 // Put your real last updated date here (or later automate from git)
 const LAST_UPDATED = "January 7, 2026";
 

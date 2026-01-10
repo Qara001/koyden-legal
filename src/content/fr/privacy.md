@@ -48,7 +48,7 @@ Aux fins des lois applicables en matière de protection des données, y compris 
 
 - Koyden
 - Établie en : **Belgique**
-- Adresse e-mail de contact : **{{contactEmail}}**
+- Adresse e-mail de contact : **koyden.contact@gmail.com**
 
 En tant que responsable du traitement, Koyden détermine les finalités et les moyens du traitement des données à caractère personnel collectées via l’application mobile Koyden et les services associés.
 
@@ -630,7 +630,7 @@ La poursuite de l’utilisation des services après une mise à jour vaut accept
 
 Pour toute question ou préoccupation relative à la présente Politique de confidentialité ou au traitement des données à caractère personnel, vous pouvez contacter Koyden à l’adresse suivante :
 
-- **E-mail :** **{{contactEmail}}**
+- **E-mail :** **koyden.contact@gmail.com**
 
 ## 15. Dernière mise à jour
 
