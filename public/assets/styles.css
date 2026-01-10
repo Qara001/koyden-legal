@@ -133,24 +133,44 @@ h1 {
   display: inline-block;
 }
 
-.langTrigger {
-  list-style: none;
-  /* Firefox */
+.langMenu {
+  position: relative;
+  display: inline-block;
+}
+
+/* IMPORTANT: target summary inside details directly (best for iOS Safari) */
+.langMenu > summary {
+  list-style: none;          /* Firefox */
   cursor: pointer;
   user-select: none;
+
+  /* Prevent the default "list-item" behavior that may show a marker */
   display: inline-flex;
   align-items: center;
   gap: 6px;
+
+  /* extra safety for some mobile browsers */
+  appearance: none;
+  -webkit-appearance: none;
 }
 
-/* Hide the default marker (Safari / iOS) */
-.langTrigger::-webkit-details-marker {
+/* iOS Safari / WebKit marker */
+.langMenu > summary::-webkit-details-marker {
   display: none;
 }
 
-/* Hide the default marker (Chrome/Firefox/etc.) */
-.langTrigger::marker {
+/* Chrome/Firefox marker */
+.langMenu > summary::marker {
   content: "";
+}
+
+/* Optional: rotate YOUR chevron */
+.langChevron {
+  transition: transform 160ms ease;
+}
+
+.langMenu[open] .langChevron {
+  transform: rotate(180deg);
 }
 
 /* Optional: rotate YOUR chevron when open */
@@ -164,24 +184,23 @@ h1 {
 
 /* Ensure dropdown stays vertical (and doesn't inherit nav layout weirdness) */
 .langDropdown {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-
-.langDropdown {
   position: absolute;
   right: 0;
   top: calc(100% + 8px);
   min-width: 160px;
+  z-index: 50;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 10px;
   padding: 6px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-  z-index: 50;
 }
+
 
 .langDropdown a {
   display: block;
@@ -197,4 +216,18 @@ h1 {
 
 .langDropdown a:hover {
   background: rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 420px) {
+  .brandName {
+    display: none;
+  }
+
+  .nav {
+    gap: 10px;
+  }
+
+  .header {
+    padding: 12px 14px;
+  }
 }
