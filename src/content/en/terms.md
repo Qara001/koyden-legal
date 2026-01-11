@@ -758,6 +758,8 @@ Koyden is not responsible or liable for:
 
 Users acknowledge that any reliance on content or interactions through the Services is at their own risk.
 
+Koyden shall not be liable for damages arising from events or conduct occurring without its actual knowledge or reasonable control.
+
 ### 12.3 No Liability for Business or Commercial Losses
 
 Where permitted by law, Koyden shall not be liable for:
@@ -932,3 +934,9 @@ Where required by applicable law, users will be notified of material changes in 
 If a user does not agree to updated Terms, they must stop using the Services and may request account deletion.
 
 Continued use of the Services after the effective date of updated Terms constitutes acceptance of the revised Terms, subject to mandatory consumer protection laws.
+
+## 16. Languages and interpretation
+
+These Terms of Service may be made available in multiple languages. In the event of any inconsistency between language versions, the versions shall be interpreted consistently. Where required by applicable law, users’ rights under the applicable language version remain unaffected.
+
+For internal consistency purposes, the English version is used as the drafting reference. This does not affect users’ rights under applicable law.

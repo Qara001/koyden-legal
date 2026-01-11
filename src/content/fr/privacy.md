@@ -1,5 +1,3 @@
-**Avis de traduction :** Cette version française est fournie uniquement pour des raisons de commodité. En cas de divergence ou de conflit d’interprétation, la version anglaise prévaut. Sous réserve des droits impératifs du consommateur applicables.
-
 ## 1. Introduction
 
 ### Objet de la présente Politique de confidentialité
@@ -332,14 +330,19 @@ Les données à caractère personnel peuvent être partagées uniquement lorsque
 
 Koyden fait appel à des prestataires de services tiers pour soutenir les fonctionnalités essentielles de l’application. Ces prestataires traitent les données à caractère personnel uniquement dans la mesure nécessaire à la fourniture de leurs services et conformément aux lois applicables en matière de protection des données.
 
-Ces prestataires peuvent notamment inclure :
+Ces prestataires comprennent notamment :
 
-- Des services d’authentification, utilisés pour gérer l’inscription des utilisateurs, la connexion et la sécurité des comptes
-- Des services de bases de données et d’infrastructure backend, utilisés pour stocker et gérer les données de l’application
-- Des services de stockage et de diffusion de médias, utilisés pour stocker et diffuser des images ou des vidéos téléchargées par les utilisateurs
-- Des services d’hébergement, de mise en réseau et d’infrastructure, utilisés pour exploiter et sécuriser la plateforme
+- **Clerk** (services d’authentification), utilisé pour gérer l’inscription, la connexion, la gestion des sessions et la sécurité des comptes. Les données traitées peuvent inclure l’adresse e-mail, des identifiants d’authentification et des métadonnées liées à la sécurité. Selon les traitements concernés, Clerk peut agir en tant que sous-traitant ou en tant que responsable de traitement indépendant.
+
+- **Supabase** (base de données et infrastructure backend), utilisé pour stocker et gérer les données de l’application telles que les comptes utilisateurs, profils, boutiques, produits et données opérationnelles associées. Supabase agit en tant que sous-traitant.
+
+- **Cloudflare** (réseau, stockage, sécurité et services edge), utilisé pour le stockage et la diffusion de médias, le routage réseau, la prévention des abus (par exemple la limitation de requêtes) et l’exécution de logique côté serveur via Cloudflare Workers. Cloudflare agit en tant que sous-traitant.
+
+- **Stripe** (paiement et abonnements), utilisé pour gérer les abonnements, la facturation et les transactions de paiement. Stripe traite certaines données liées au paiement en tant que responsable de traitement indépendant, conformément à sa propre politique de confidentialité. Koyden ne conserve pas les informations complètes relatives aux cartes de paiement.
 
 Ces prestataires agissent en tant que sous-traitants ou responsables de traitement indépendants, selon leur rôle, et sont soumis à des obligations contractuelles en matière de protection et de sécurité des données.
+
+Certains de ces prestataires peuvent traiter des données à caractère personnel en dehors de l’Espace économique européen ; des informations complémentaires sur les transferts internationaux figurent à la Section 10.
 
 ### 7.2 Prestataires de paiement et de facturation (le cas échéant)
 
@@ -531,6 +534,8 @@ Lorsque de tels transferts ont lieu, Koyden veille à ce que des garanties appro
 - Le recours à des garanties contractuelles approuvées, telles que les clauses contractuelles types (CCT) ; ou
 - D’autres mécanismes de transfert licites autorisés par les lois applicables en matière de protection des données
 
+En particulier, certains prestataires utilisés par Koyden, tels que des prestataires d’authentification, d’infrastructure, de réseau ou de paiement, peuvent traiter des données à caractère personnel sur des infrastructures situées en dehors de l’Espace économique européen, y compris aux États-Unis, selon la configuration des services et leurs opérations mondiales.
+
 ### 10.2 Garanties et conformité
 
 Koyden prend des mesures raisonnables afin de garantir que les transferts internationaux de données respectent les exigences applicables en matière de protection des données et que les données à caractère personnel continuent d’être protégées conformément à la présente Politique de confidentialité.
@@ -635,3 +640,10 @@ Pour toute question ou préoccupation relative à la présente Politique de conf
 ## 15. Dernière mise à jour
 
 **Dernière mise à jour :** 09 janvier 2026
+
+## 16. Langues et interprétation
+
+La présente Politique de confidentialité peut être mise à disposition en plusieurs langues. En cas de divergence entre les différentes versions linguistiques, celles-ci doivent être interprétées de manière cohérente. Les droits des utilisateurs prévus par la législation applicable demeurent pleinement applicables.
+
+À des fins de cohérence interne, la version anglaise est utilisée comme version de référence pour la rédaction.  
+Cela n’affecte en rien les droits des utilisateurs tels que prévus par la législation applicable.

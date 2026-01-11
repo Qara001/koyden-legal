@@ -1,5 +1,3 @@
-**Vertaalmelding:** Deze Nederlandse vertaling wordt uitsluitend ter informatie verstrekt. In geval van enige afwijking, tegenstrijdigheid of verschil in interpretatie tussen deze vertaling en de Engelse versie, heeft de Engelse versie voorrang, onverminderd de dwingende consumentenrechten die van toepassing zijn.
-
 ## 1. Inleiding
 
 ### Doel van dit Privacybeleid
@@ -330,16 +328,21 @@ Persoonsgegevens kunnen uitsluitend worden gedeeld wanneer dit noodzakelijk is v
 
 ### 7.1 Dienstverleners en verwerkers
 
-Koyden maakt gebruik van externe dienstverleners om de kernfunctionaliteit van de app te ondersteunen. Deze partijen verwerken persoonsgegevens uitsluitend voor zover dit noodzakelijk is voor het uitvoeren van hun diensten en in overeenstemming met de toepasselijke wetgeving inzake gegevensbescherming.
+Koyden doet een beroep op externe dienstverleners om de kernfunctionaliteiten van de app te ondersteunen. Deze partijen verwerken persoonsgegevens uitsluitend voor zover dit noodzakelijk is om hun diensten te leveren, en in overeenstemming met de toepasselijke wetgeving inzake gegevensbescherming.
 
-Dergelijke dienstverleners kunnen onder meer omvatten:
+Deze dienstverleners omvatten in het bijzonder:
 
-- Authenticatiediensten, gebruikt voor gebruikersregistratie, aanmelding en accountbeveiliging
-- Database- en backendinfrastructuurdiensten, gebruikt voor het opslaan en beheren van applicatiegegevens
-- Mediaopslag- en leveringsdiensten, gebruikt voor het opslaan en aanbieden van door gebruikers geüploade afbeeldingen of video’s
-- Hosting-, netwerk- en infrastructuurdiensten, gebruikt voor het exploiteren en beveiligen van het platform
+- **Clerk** (authenticatiediensten), gebruikt voor gebruikersregistratie, aanmelding, sessiebeheer en accountbeveiliging. Verwerkte gegevens kunnen onder meer het e-mailadres, authenticatie-identificatoren en beveiligingsgerelateerde metadata omvatten. Afhankelijk van de concrete verwerkingsactiviteiten kan Clerk optreden als verwerker of als onafhankelijke verwerkingsverantwoordelijke.
+
+- **Supabase** (database en backendinfrastructuur), gebruikt voor het opslaan en beheren van applicatiegegevens zoals gebruikersaccounts, profielen, winkels, producten en gerelateerde operationele gegevens. Supabase treedt op als verwerker.
+
+- **Cloudflare** (netwerk-, opslag-, beveiligings- en edge-diensten), gebruikt voor mediaopslag en -levering, netwerkroutering, misbruikpreventie (zoals rate limiting) en het uitvoeren van server-side logica via Cloudflare Workers. Cloudflare treedt op als verwerker.
+
+- **Stripe** (betalings- en abonnementsverwerking), gebruikt voor het beheren van abonnementen, facturatie en betalingstransacties. Stripe verwerkt bepaalde betalingsgerelateerde gegevens als onafhankelijke verwerkingsverantwoordelijke, overeenkomstig haar eigen privacybeleid. Koyden bewaart geen volledige betaalkaartgegevens.
 
 Deze dienstverleners treden op als verwerker of als onafhankelijke verwerkingsverantwoordelijke, afhankelijk van hun rol, en zijn onderworpen aan contractuele verplichtingen inzake gegevensbescherming en beveiliging.
+
+Sommige van deze dienstverleners kunnen persoonsgegevens verwerken buiten de Europese Economische Ruimte; meer informatie over internationale doorgiften is opgenomen in Sectie 10.
 
 ### 7.2 Betalings- en facturatiedienstverleners (indien van toepassing)
 
@@ -531,6 +534,8 @@ Wanneer dergelijke doorgiften plaatsvinden, zorgt Koyden ervoor dat passende waa
 - Het gebruik van goedgekeurde contractuele waarborgen, zoals standaardcontractbepalingen (Standard Contractual Clauses – SCC’s); of
 - Andere rechtmatige doorgiftemechanismen die zijn toegestaan onder de toepasselijke gegevensbeschermingswetgeving
 
+In het bijzonder kunnen bepaalde door Koyden gebruikte dienstverleners, zoals authenticatie-, infrastructuur-, netwerk- of betalingsdienstverleners, persoonsgegevens verwerken op infrastructuur buiten de Europese Economische Ruimte, waaronder in de Verenigde Staten, afhankelijk van de configuratie van de diensten en hun wereldwijde werking.
+
 ### 10.2 Waarborgen en naleving
 
 Koyden neemt redelijke maatregelen om ervoor te zorgen dat internationale doorgiften van persoonsgegevens voldoen aan de toepasselijke gegevensbeschermingsvereisten en dat persoonsgegevens beschermd blijven overeenkomstig dit Privacybeleid.
@@ -635,3 +640,12 @@ Voor vragen of opmerkingen over dit Privacybeleid of de verwerking van persoonsg
 ## 15. Laatst bijgewerkt
 
 **Laatst bijgewerkt:** 09 januari 2026
+
+## 16. Talen en interpretatie
+
+Dit Privacybeleid kan in meerdere talen beschikbaar worden gesteld. 
+In geval van verschillen tussen taalversies dienen deze op een consistente wijze te worden geïnterpreteerd. 
+De rechten van gebruikers onder de toepasselijke wetgeving blijven onverkort van toepassing.
+
+Voor interne consistentiedoeleinden wordt de Engelse versie gebruikt als referentie bij de redactie.  
+Dit heeft geen invloed op de rechten van gebruikers onder de toepasselijke wetgeving.

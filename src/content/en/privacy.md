@@ -330,14 +330,20 @@ Personal data may be shared only where necessary to operate the services, comply
 
 Koyden relies on third-party service providers to support core functionality of the app. These providers process personal data only as necessary to perform their services and in accordance with applicable data protection laws.
 
-Such providers may include:
+Such providers include, in particular:
 
-- Authentication services, used to manage user registration, sign-in, and account security
-- Database and backend infrastructure services, used to store and manage application data
-- Media storage and delivery services, used to store and serve images or videos uploaded by users
-- Hosting, networking, and infrastructure services, used to operate and secure the platform
+- **Clerk** (authentication services), used to manage user registration, sign-in, session management, and account security. Data processed may include email addresses, authentication identifiers, and security-related metadata. Clerk acts as a data processor or as an independent controller depending on the specific processing activities.
+
+- **Supabase** (database and backend infrastructure), used to store and manage application data such as user accounts, profiles, stores, products, and related operational data. Supabase acts as a data processor.
+
+- **Cloudflare** (network, storage, security, and edge services), used for media storage and delivery, network routing, abuse prevention (such as rate limiting), and execution of server-side logic through Cloudflare Workers. Cloudflare acts as a data processor.
+
+- **Stripe** (payment and subscription processing), used to manage subscriptions, billing, and payment transactions. Stripe processes payment-related data as an independent data controller in accordance with its own privacy policy. Koyden does not store full payment card details.
 
 These service providers act as data processors or independent controllers, depending on their role, and are subject to contractual obligations regarding data protection and security.
+
+Some of these service providers may process personal data outside the European Economic Area; further information on international transfers is provided in Section 10.
+
 
 ### 7.2 Payment and Billing Providers (If Applicable)
 
@@ -529,6 +535,8 @@ When such transfers occur, Koyden ensures that appropriate safeguards are in pla
 - The use of approved contractual safeguards, such as Standard Contractual Clauses (SCCs); or
 - Other lawful transfer mechanisms permitted under applicable data protection laws
 
+In particular, certain service providers used by Koyden, such as authentication, infrastructure, network, or payment providers, may process personal data on infrastructure located outside the European Economic Area, including in the United States, depending on their service configuration and global operations.
+
 ### 10.2 Safeguards and Compliance
 
 Koyden takes reasonable steps to ensure that international data transfers comply with applicable data protection requirements and that personal data continues to be protected in accordance with this Privacy Policy.
@@ -633,3 +641,9 @@ For questions or concerns regarding this Privacy Policy or the processing of per
 ## 15. Last Updated
 
 **Last updated:** 09 January 2026
+
+## 16. Languages and interpretation
+
+This Privacy Policy may be made available in multiple languages. In the event of any inconsistency between language versions, the versions shall be interpreted consistently. Where required by applicable law, users’ rights under the applicable language version remain unaffected.
+
+For internal consistency purposes, the English version is used as the drafting reference. This does not affect users’ rights under applicable law.

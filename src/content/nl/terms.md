@@ -1,5 +1,3 @@
-**Vertaalmelding:** Deze Nederlandse vertaling wordt uitsluitend ter informatie verstrekt. In geval van enige afwijking, tegenstrijdigheid of verschil in interpretatie tussen deze vertaling en de Engelse versie, heeft de Engelse versie voorrang, onverminderd de dwingende consumentenrechten die van toepassing zijn.
-
 ## 1. Inleiding & Aanvaarding van de Voorwaarden
 
 ### 1.1 Doel van deze Voorwaarden
@@ -760,6 +758,8 @@ Koyden is niet verantwoordelijk of aansprakelijk voor:
 
 Gebruikers erkennen dat elk vertrouwen op inhoud of interacties via de Diensten volledig op eigen risico gebeurt.
 
+Koyden is niet aansprakelijk voor schade die voortvloeit uit gebeurtenissen of gedrag die plaatsvinden zonder haar daadwerkelijke kennis of buiten haar redelijke controle.
+
 ### 12.3 Geen Aansprakelijkheid voor Zakelijke of Commerciële Verliezen
 
 Voor zover wettelijk toegestaan is Koyden niet aansprakelijk voor:
@@ -937,3 +937,12 @@ Waar wettelijk vereist worden gebruikers vooraf geïnformeerd over wezenlijke wi
 Indien een gebruiker niet akkoord gaat met de gewijzigde Voorwaarden, dient hij het gebruik van de Diensten te staken en kan hij verzoeken om accountverwijdering.
 
 Voortgezet gebruik van de Diensten na de ingangsdatum van de gewijzigde Voorwaarden geldt als aanvaarding ervan, onder voorbehoud van dwingende consumentenbeschermingswetgeving.
+
+## 16. Talen en interpretatie
+
+Deze Gebruiksvoorwaarden kunnen in meerdere talen beschikbaar worden gesteld.
+In geval van verschillen tussen taalversies dienen deze op een consistente wijze te worden geïnterpreteerd. 
+De rechten van gebruikers onder de toepasselijke wetgeving blijven onverkort van toepassing.
+
+Voor interne consistentiedoeleinden wordt de Engelse versie gebruikt als referentie bij de redactie.  
+Dit heeft geen invloed op de rechten van gebruikers onder de toepasselijke wetgeving.

@@ -1,5 +1,3 @@
-**Avis de traduction :** Cette version française est fournie uniquement pour des raisons de commodité. En cas de divergence ou de conflit d’interprétation, la version anglaise prévaut. Sous réserve des droits impératifs du consommateur applicables.
-
 ## 1. Introduction et acceptation des Conditions
 
 ### 1.1 Objet des présentes Conditions
@@ -760,6 +758,8 @@ Koyden n’est pas responsable ni tenue responsable de :
 
 Les utilisateurs reconnaissent que toute utilisation de contenus ou toute interaction via les Services s’effectue à leurs propres risques.
 
+Koyden n’est pas responsable des dommages résultant d’événements ou de comportements survenus sans qu’elle en ait eu connaissance effective ou sans qu’ils relèvent raisonnablement de son contrôle.
+
 ### 12.3 Absence de responsabilité pour les pertes commerciales
 
 Lorsque la loi l’autorise, Koyden ne saurait être tenue responsable de :
@@ -934,3 +934,10 @@ Lorsque la loi applicable l’exige, les utilisateurs seront informés à l’av
 Si un utilisateur n’accepte pas les Conditions mises à jour, il doit cesser d’utiliser les Services et peut demander la suppression de son compte.
 
 La poursuite de l’utilisation des Services après la date d’entrée en vigueur des Conditions mises à jour vaut acceptation des Conditions révisées, sous réserve des lois impératives en matière de protection des consommateurs.
+
+## 16. Langues et interprétation
+
+Les présentes Conditions d’utilisation peuvent être mises à disposition en plusieurs langues. En cas de divergence entre les différentes versions linguistiques, celles-ci doivent être interprétées de manière cohérente. Les droits des utilisateurs prévus par la législation applicable demeurent pleinement applicables.
+
+À des fins de cohérence interne, la version anglaise est utilisée comme version de référence pour la rédaction.  
+Cela n’affecte en rien les droits des utilisateurs tels que prévus par la législation applicable.
