@@ -132,13 +132,13 @@ function writeRedirectsFile(outDir, slugs) {
     // Normalize + remove duplicates for each language:
     // /en/terms.html → /en/terms/
     // /en/terms      → /en/terms/   (force)
-    for (const lang of languages) {
-        for (const slug of slugs) {
-            lines.push(`/${lang}/${slug}.html /${lang}/${slug}/ 301`);
-            lines.push(`/${lang}/${slug} /${lang}/${slug}/ 301!`);
-        }
-        lines.push(""); // blank line between languages
+for (const lang of languages) {
+    for (const slug of slugs) {
+        lines.push(`/${lang}/${slug}.html /${lang}/${slug}/ 301`);
+        lines.push(`/${lang}/${slug} /${lang}/${slug}/ 301!`);
     }
+    lines.push("");
+}
 
     writeFile(path.join(outDir, "_redirects"), lines.join("\n"));
 }
@@ -196,9 +196,6 @@ function build() {
             };
 
             const finalHtml = render(template, vars);
-
-            const outPath = path.join(outLangDir, `${slug}.html`);
-            writeFile(outPath, finalHtml);
 
             const prettyPath = path.join(outLangDir, slug, "index.html");
             writeFile(prettyPath, finalHtml);
