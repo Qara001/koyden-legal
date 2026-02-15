@@ -1,0 +1,7 @@
+# Force LF endings for generated/static files (prevents CRLF noise on Windows)
+public/_redirects text eol=lf
+public/**/*.html text eol=lf
+public/**/*.xml text eol=lf
+public/**/*.txt text eol=lf
+public/**/*.css text eol=lf
+scripts/**/*.mjs text eol=lf
