@@ -11,6 +11,7 @@ const paths = {
 };
 
 const languages = ["en", "fr", "nl"];
+const defaultLang = "en";
 
 // Basic markdown-to-html (enough for legal docs: headings, paragraphs, lists, bold/italic, links)
 function mdToHtml(md) {
@@ -112,8 +113,41 @@ function render(template, vars) {
     return template.replace(/\{\{(\w+)\}\}/g, (_, key) => vars[key] ?? "");
 }
 
+function writeRedirectsFile(outDir, slugs) {
+    const lines = [];
+
+    // Root → default language
+    lines.push(`/ /${defaultLang}/ 301`);
+
+    // Shortcuts without language → default language (only for known slugs)
+    // e.g. /terms → /en/terms/
+    const shortcutSlugs = ["terms", "privacy"];
+
+    for (const slug of shortcutSlugs) {
+        lines.push(`/${slug} /${defaultLang}/${slug}/ 301`);
+    }
+
+    lines.push(""); // blank line separator
+
+    // Normalize + remove duplicates for each language:
+    // /en/terms.html → /en/terms/
+    // /en/terms      → /en/terms/   (force)
+    for (const lang of languages) {
+        for (const slug of slugs) {
+            lines.push(`/${lang}/${slug}.html /${lang}/${slug}/ 301`);
+            lines.push(`/${lang}/${slug} /${lang}/${slug}/ 301!`);
+        }
+        lines.push(""); // blank line between languages
+    }
+
+    writeFile(path.join(outDir, "_redirects"), lines.join("\n"));
+}
+
 function build() {
     const template = readFile(paths.template);
+
+    // Collect all slugs found in content (privacy, terms, future pages...)
+    const slugs = new Set();
 
     for (const lang of languages) {
         const langDir = path.join(paths.contentDir, lang);
@@ -129,12 +163,13 @@ function build() {
         const mdFiles = fs.readdirSync(langDir).filter((f) => f.endsWith(".md"));
 
         for (const mdFile of mdFiles) {
-            const slug = slugFromFilename(mdFile); // privacy | terms
+            const slug = slugFromFilename(mdFile); // privacy | terms | future slugs
+            slugs.add(slug);
+
             const mdPath = path.join(langDir, mdFile);
             const md = readFile(mdPath);
 
             const htmlContent = mdToHtml(md);
-
             const labels = uiLabels(lang);
 
             const vars = {
@@ -146,12 +181,10 @@ function build() {
                 description: descriptionFromSlug(lang, slug),
                 lastUpdated: LAST_UPDATED,
 
-                // UI labels (template placeholders)
                 navTerms: labels.navTerms,
                 navPrivacy: labels.navPrivacy,
                 footerContactLabel: labels.footerContactLabel,
 
-                // nav active states
                 termsActive: slug === "terms" ? "active" : "",
                 privacyActive: slug === "privacy" ? "active" : "",
                 enActive: lang === "en" ? "active" : "",
@@ -162,20 +195,20 @@ function build() {
                 content: htmlContent,
             };
 
-
             const finalHtml = render(template, vars);
 
             const outPath = path.join(outLangDir, `${slug}.html`);
             writeFile(outPath, finalHtml);
 
-            // Also write pretty route files via Pages routing:
-            // /en/privacy should work if you also create /en/privacy/index.html
             const prettyPath = path.join(outLangDir, slug, "index.html");
             writeFile(prettyPath, finalHtml);
         }
     }
 
-    console.log("✅ Build complete: public/{lang}/{privacy|terms}.html and pretty routes.");
+    // Always regenerate redirects from the real slugs
+    writeRedirectsFile(paths.outDir, Array.from(slugs).sort());
+
+    console.log("✅ Build complete: pages + _redirects generated from content.");
 }
 
 build();
