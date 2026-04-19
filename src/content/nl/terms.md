@@ -909,7 +909,7 @@ Titels en kopjes worden uitsluitend ter verduidelijking gebruikt en hebben geen 
 
 Voor vragen over deze Voorwaarden of de Diensten kunt u contact opnemen met Koyden via:
 
-- **E-mail:** **koyden.contact@gmail.com**
+- **E-mail:** **support@koyden.app**
 
 Aanvullende juridische of zakelijke informatie kan worden verstrekt op wettig verzoek.
 

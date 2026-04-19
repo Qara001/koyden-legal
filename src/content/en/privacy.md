@@ -46,7 +46,7 @@ For the purposes of applicable data protection laws, including the General Data 
 
 - Koyden
 - Established in: **Belgium**
-- Contact email: **koyden.contact@gmail.com**
+- Contact email: **support@koyden.app**
 
 As the data controller, Koyden determines the purposes and means of processing personal data collected through the Koyden mobile application and related services.
 
@@ -636,7 +636,7 @@ Continued use of the services after an update constitutes acceptance of the revi
 
 For questions or concerns regarding this Privacy Policy or the processing of personal data, you may contact Koyden at:
 
-- **Email:** **koyden.contact@gmail.com**
+- **Email:** **support@koyden.app**
 
 ## 15. Last Updated
 

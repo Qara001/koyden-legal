@@ -46,7 +46,7 @@ Voor de toepassing van de geldende wetgeving inzake gegevensbescherming, waarond
 
 - Koyden
 - Gevestigd in: **België**
-- Contact e-mail: **koyden.contact@gmail.com**
+- Contact e-mail: **support@koyden.app**
 
 Als verwerkingsverantwoordelijke bepaalt Koyden de doeleinden en middelen van de verwerking van persoonsgegevens die worden verzameld via de mobiele applicatie van Koyden en de bijbehorende diensten.
 
@@ -635,7 +635,7 @@ Voortgezet gebruik van de diensten na een wijziging houdt aanvaarding van het bi
 
 Voor vragen of opmerkingen over dit Privacybeleid of de verwerking van persoonsgegevens kunt u contact opnemen met Koyden via:
 
-- **E-mail:** **koyden.contact@gmail.com**
+- **E-mail:** **support@koyden.app**
 
 ## 15. Laatst bijgewerkt
 

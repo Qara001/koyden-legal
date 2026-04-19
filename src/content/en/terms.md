@@ -906,7 +906,7 @@ Section titles and headings are provided for convenience only and do not affect 
 
 If you have questions about these Terms or the Services, you may contact Koyden at:
 
-- **Email:** **koyden.contact@gmail.com**
+- **Email:** **support@koyden.app**
 
 Additional legal or business information may be provided upon lawful request.
 

@@ -906,7 +906,7 @@ Les titres et intitulés des sections sont fournis uniquement pour des raisons d
 
 Pour toute question relative aux présentes Conditions ou aux Services, vous pouvez contacter Koyden à l’adresse suivante :
 
-- **E-mail :** **koyden.contact@gmail.com**
+- **E-mail :** **support@koyden.app**
 
 Des informations juridiques ou commerciales supplémentaires peuvent être fournies sur demande légale.
 
