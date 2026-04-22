@@ -81,19 +81,45 @@ function slugFromFilename(filename) {
 
 function titleFromSlug(lang, slug) {
     const map = {
-        en: { privacy: "Privacy Policy", terms: "Terms of Service" },
-        fr: { privacy: "Politique de confidentialité", terms: "Conditions d’utilisation" },
-        nl: { privacy: "Privacybeleid", terms: "Gebruiksvoorwaarden" },
+        en: {
+            privacy: "Privacy Policy",
+            terms: "Terms of Service",
+            "account-deletion": "Account Deletion",
+        },
+        fr: {
+            privacy: "Politique de confidentialité",
+            terms: "Conditions d’utilisation",
+            "account-deletion": "Suppression de compte",
+        },
+        nl: {
+            privacy: "Privacybeleid",
+            terms: "Gebruiksvoorwaarden",
+            "account-deletion": "Accountverwijdering",
+        },
     };
+
     return map[lang]?.[slug] ?? slug;
 }
 
 function descriptionFromSlug(lang, slug) {
     const map = {
-        en: { privacy: "How we collect and use data.", terms: "Rules for using Koyden." },
-        fr: { privacy: "Comment nous collectons et utilisons les données.", terms: "Règles d’utilisation de Koyden." },
-        nl: { privacy: "Hoe wij gegevens verzamelen en gebruiken.", terms: "Regels voor het gebruik van Koyden." },
+        en: {
+            privacy: "How we collect and use data.",
+            terms: "Rules for using Koyden.",
+            "account-deletion": "How Koyden users can request account and data deletion.",
+        },
+        fr: {
+            privacy: "Comment nous collectons et utilisons les données.",
+            terms: "Règles d’utilisation de Koyden.",
+            "account-deletion": "Comment les utilisateurs de Koyden peuvent demander la suppression de leur compte et de leurs données.",
+        },
+        nl: {
+            privacy: "Hoe wij gegevens verzamelen en gebruiken.",
+            terms: "Regels voor het gebruik van Koyden.",
+            "account-deletion": "Hoe Koyden-gebruikers de verwijdering van hun account en gegevens kunnen aanvragen.",
+        },
     };
+
     return map[lang]?.[slug] ?? "";
 }
 
