@@ -1,19 +1,45 @@
-<!-- file: src/content/fr/account-deletion.md -->
-
 ## Suppression de compte
 
-Koyden permet aux utilisateurs de demander la suppression de leur compte et des données personnelles associées.
+Koyden permet aux utilisateurs de supprimer leur compte directement depuis l’application.
 
-## Comment demander la suppression du compte
+## Supprimer votre compte dans l’application
 
-Pour demander la suppression de votre compte Koyden, veuillez envoyer un e-mail à [support@koyden.app](mailto:support@koyden.app) en utilisant l’adresse e-mail associée à votre compte.
+Vous pouvez supprimer votre compte à tout moment en suivant ces étapes :
 
-Veuillez utiliser l’objet suivant : **Demande de suppression de compte**.
+1. Ouvrez l’application
+2. Accédez à **Paramètres**
+3. Appuyez sur **Compte**
+4. Sélectionnez **Supprimer le compte**
+
+## Période de désactivation
+
+Après avoir initié la suppression, votre compte sera désactivé pendant une période de **30 jours**.
+
+Pendant cette période :
+
+* votre compte n’est pas accessible aux autres
+* vous pouvez réactiver votre compte à tout moment en vous reconnectant
+
+## Suppression définitive
+
+Si vous ne réactivez pas votre compte dans ce délai de 30 jours, votre compte et les données personnelles associées seront supprimés ou anonymisés, conformément à la législation applicable.
+
+## Méthode alternative
+
+Si vous ne pouvez pas accéder à votre compte, vous pouvez demander sa suppression par e-mail.
+
+Veuillez envoyer un e-mail à [support@koyden.app](mailto:support@koyden.app) avec pour objet : **Demande de suppression de compte**.
 
 Dans votre message, merci d’indiquer :
-- l’adresse e-mail de votre compte
-- votre nom complet s’il figure sur le compte
-- toute information complémentaire permettant d’identifier votre compte
+
+* l’adresse e-mail associée à votre compte
+* votre nom complet s’il est renseigné
+* toute information permettant d’identifier votre compte
+
+Pour des raisons de sécurité, une demande de confirmation sera envoyée à l’adresse e-mail actuellement associée au compte. La suppression ne sera effectuée qu’après validation.
+
+Nous pouvons également demander des informations supplémentaires pour vérifier votre identité.
+
 
 ## Ce qui se passe après votre demande
 

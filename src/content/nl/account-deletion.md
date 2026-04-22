@@ -1,19 +1,45 @@
-<!-- file: src/content/nl/account-deletion.md -->
-
 ## Accountverwijdering
 
-Koyden biedt gebruikers de mogelijkheid om verwijdering van hun account en bijbehorende persoonsgegevens aan te vragen.
+Koyden stelt gebruikers in staat om hun account rechtstreeks in de app te verwijderen.
 
-## Hoe u accountverwijdering kunt aanvragen
+## Uw account verwijderen in de app
 
-Om verwijdering van uw Koyden-account aan te vragen, stuurt u een e-mail naar [support@koyden.app](mailto:support@koyden.app) vanaf het e-mailadres dat aan uw account is gekoppeld.
+U kunt uw account op elk moment verwijderen door de volgende stappen te volgen:
 
-Gebruik als onderwerp: **Account Deletion Request**.
+1. Open de app
+2. Ga naar **Instellingen**
+3. Tik op **Account**
+4. Selecteer **Account verwijderen**
+
+## Deactivatieperiode
+
+Na het starten van de verwijdering wordt uw account gedurende **30 dagen** gedeactiveerd.
+
+Tijdens deze periode:
+
+* is uw account niet toegankelijk voor anderen
+* kunt u uw account op elk moment opnieuw activeren door opnieuw in te loggen
+
+## Definitieve verwijdering
+
+Als u uw account niet binnen 30 dagen opnieuw activeert, worden uw account en de bijbehorende persoonsgegevens permanent verwijderd of geanonimiseerd, in overeenstemming met de toepasselijke wetgeving.
+
+## Alternatieve methode
+
+Als u geen toegang meer heeft tot uw account, kunt u verwijdering per e-mail aanvragen.
+
+Stuur een e-mail naar [support@koyden.app](mailto:support@koyden.app) met als onderwerp: **Account Deletion Request**.
 
 Vermeld in uw bericht:
-- het e-mailadres van uw account
-- uw volledige naam indien beschikbaar op het account
-- eventuele extra informatie waarmee wij uw account kunnen identificeren
+
+* het e-mailadres dat aan uw account is gekoppeld
+* uw volledige naam indien beschikbaar
+* eventuele extra informatie om uw account te identificeren
+
+Om veiligheidsredenen sturen wij een bevestigingsverzoek naar het e-mailadres dat op dat moment aan het account is gekoppeld. De verwijdering wordt pas uitgevoerd na bevestiging.
+
+Wij kunnen ook aanvullende verificatie vragen om te bevestigen dat u de rechtmatige eigenaar bent.
+
 
 ## Wat er gebeurt na uw verzoek
 

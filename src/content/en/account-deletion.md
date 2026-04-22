@@ -1,19 +1,47 @@
-<!-- file: src/content/en/account-deletion.md -->
+## Account Deletion
 
-## Account Deletion Request
+Koyden allows users to delete their account directly within the app.
 
-Koyden allows users to request deletion of their account and associated personal data.
+## Delete your account in the app
 
-## How to request account deletion
+You can delete your account at any time by following these steps:
 
-To request deletion of your Koyden account, please send an email to [support@koyden.app](mailto:support@koyden.app) using the email address associated with your account.
+1. Open the app
+2. Go to **Settings**
+3. Tap **Account**
+4. Select **Delete Account**
+
+## Deactivation period
+
+After initiating account deletion, your account will be deactivated for a period of **30 days**.
+
+During this period:
+
+* your account is not accessible to others
+* you can reactivate your account at any time by logging back in
+
+## Permanent deletion
+
+If you do not reactivate your account within 30 days, your account and associated personal data will be permanently deleted or anonymized, in accordance with applicable laws.
+
+## Alternative request method
+
+If you are unable to access your account, you can request deletion by email.
+
+To request deletion, please send an email to [support@koyden.app](mailto:support@koyden.app).
 
 Please use the subject line: **Account Deletion Request**.
 
 In your message, include:
-- your account email address
-- your full name if available on the account
-- any additional information that helps us identify your account
+
+* your account email address
+* your full name if available on the account
+* any additional information that helps us identify your account
+
+For security reasons, we will send a confirmation request to the email address currently associated with the account. The deletion will only be processed after this confirmation is completed.
+
+We may also require additional verification to confirm that you are the rightful owner of the account.
+
 
 ## What happens after your request
 
