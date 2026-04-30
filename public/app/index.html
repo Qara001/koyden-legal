@@ -1,0 +1,176 @@
+<!-- file: public/app/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Download Koyden</title>
+  <meta name="description" content="Download Koyden on your mobile device." />
+  <meta name="robots" content="noindex" />
+
+  <style>
+    :root {
+      --green: #285c35;
+      --green-dark: #1f4729;
+      --cream: #f5ead7;
+      --text: #1f2a1f;
+      --muted: #667266;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #fff7e8 0%, var(--cream) 45%, #eadcc5 100%);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: rgba(255, 255, 255, 0.78);
+      border: 1px solid rgba(40, 92, 53, 0.12);
+      border-radius: 28px;
+      box-shadow: 0 20px 60px rgba(31, 71, 41, 0.16);
+      padding: 32px 24px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 76px;
+      height: 76px;
+      border-radius: 22px;
+      background: var(--green);
+      color: white;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      font-weight: 800;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.1;
+      color: var(--green);
+    }
+
+    p {
+      margin: 14px 0 0;
+      font-size: 16px;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+
+    .status {
+      margin-top: 18px;
+      font-size: 14px;
+      color: var(--green-dark);
+      font-weight: 650;
+    }
+
+    .buttons {
+      display: grid;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 15px 18px;
+      border-radius: 16px;
+      background: var(--green);
+      color: white;
+      text-decoration: none;
+      font-weight: 750;
+      font-size: 16px;
+    }
+
+    .button.secondary {
+      background: white;
+      color: var(--green);
+      border: 1px solid rgba(40, 92, 53, 0.22);
+    }
+
+    .small {
+      margin-top: 18px;
+      font-size: 13px;
+      color: #7b857b;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <div class="logo">K</div>
+
+    <h1>Download Koyden</h1>
+
+    <p>
+      Koyden is available on mobile. We’ll send you to the right app store.
+    </p>
+
+    <div class="status" id="status">Detecting your device…</div>
+
+    <div class="buttons">
+      <a class="button" id="iosLink" href="#">
+        Download on the App Store
+      </a>
+
+      <a class="button secondary" id="androidLink" href="#">
+        Get it on Google Play
+      </a>
+    </div>
+
+    <p class="small">
+      If nothing happens, choose your store manually.
+    </p>
+  </main>
+
+  <script>
+    const APP_STORE_URL = "https://apps.apple.com/app/YOUR_APP_ID";
+    const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=YOUR_ANDROID_PACKAGE_NAME";
+
+    const statusEl = document.getElementById("status");
+    const iosLink = document.getElementById("iosLink");
+    const androidLink = document.getElementById("androidLink");
+
+    iosLink.href = APP_STORE_URL;
+    androidLink.href = PLAY_STORE_URL;
+
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    const isIOS = /iPad|iPhone|iPod/.test(userAgent) ||
+      (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+
+    const isAndroid = /android/i.test(userAgent);
+
+    function redirectTo(url, label) {
+      statusEl.textContent = `Opening ${label}…`;
+
+      setTimeout(() => {
+        window.location.href = url;
+      }, 700);
+    }
+
+    if (isIOS) {
+      redirectTo(APP_STORE_URL, "App Store");
+    } else if (isAndroid) {
+      redirectTo(PLAY_STORE_URL, "Google Play");
+    } else {
+      statusEl.textContent = "Choose your mobile app store below.";
+    }
+  </script>
+</body>
+</html>
