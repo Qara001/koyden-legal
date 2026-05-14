@@ -127,14 +127,15 @@
 
     <script>
         const APP_STORE_URL = "https://apps.apple.com/app/id6762552617";
-        const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.koyden.mobile";
+        const PLAY_STORE_URL = "market://details?id=com.koyden.mobile";
+        const PLAY_STORE_WEB_URL = "https://play.google.com/store/apps/details?id=com.koyden.mobile";
 
         const statusEl = document.getElementById("status");
         const iosLink = document.getElementById("iosLink");
         const androidLink = document.getElementById("androidLink");
 
         iosLink.href = APP_STORE_URL;
-        androidLink.href = PLAY_STORE_URL;
+        androidLink.href = PLAY_STORE_WEB_URL;
 
         const userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
@@ -154,7 +155,13 @@
         if (isIOS) {
             redirectTo(APP_STORE_URL, "App Store");
         } else if (isAndroid) {
-            redirectTo(PLAY_STORE_URL, "Google Play");
+            statusEl.textContent = "Opening Google Play…";
+
+            window.location.href = PLAY_STORE_URL;
+
+            setTimeout(() => {
+                window.location.href = PLAY_STORE_WEB_URL;
+            }, 1200);
         } else {
             statusEl.textContent = "Choose your mobile app store below.";
         }
