@@ -20,4 +20,16 @@
     <loc>https://koyden.app/nl/</loc>
   </url>
 
+<url>
+  <loc>https://koyden.app/fr/create-store/</loc>
+</url>
+
+<url>
+  <loc>https://koyden.app/en/create-store/</loc>
+</url>
+
+<url>
+  <loc>https://koyden.app/nl/create-store/</loc>
+</url>
+
 </urlset>
