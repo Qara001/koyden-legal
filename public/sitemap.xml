@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
     <loc>https://koyden.app/</loc>
@@ -20,16 +18,20 @@
     <loc>https://koyden.app/nl/</loc>
   </url>
 
-<url>
-  <loc>https://koyden.app/fr/create-store/</loc>
-</url>
+  <url>
+    <loc>https://koyden.app/app/</loc>
+  </url>
 
-<url>
-  <loc>https://koyden.app/en/create-store/</loc>
-</url>
+  <url>
+    <loc>https://koyden.app/fr/create-store/</loc>
+  </url>
 
-<url>
-  <loc>https://koyden.app/nl/create-store/</loc>
-</url>
+  <url>
+    <loc>https://koyden.app/en/create-store/</loc>
+  </url>
+
+  <url>
+    <loc>https://koyden.app/nl/create-store/</loc>
+  </url>
 
 </urlset>
